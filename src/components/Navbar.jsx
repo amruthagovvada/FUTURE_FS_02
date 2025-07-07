@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-6 py-4 bg-white shadow-md sticky top-0 z-50">
       {/* Logo */}
-      <h1 className="text-4xl font-bold bg-gradient-to-r from-fuchsia-500 via-violet-500 to-indigo-500 text-transparent bg-clip-text drop-shadow-md tracking-wide">
+      <h1 className="text-4xl font-bold bg-gradient-to-r from-fuchsia-700 via-violet-600 to-indigo-600 text-transparent bg-clip-text drop-shadow-md tracking-wide">
         MiniBay 🛒
       </h1>
 
