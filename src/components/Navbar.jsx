@@ -19,6 +19,8 @@ const Navbar = () => {
         MiniBay 🛒
       </h1>
 
+      
+
       {/* Right section: nav links + user info */}
       <div className="flex items-center gap-3 text-lg font-medium text-gray-700">
         {/* Home */}

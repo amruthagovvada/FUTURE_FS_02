@@ -14,7 +14,7 @@ const HomePage = () => {
       </div>
 
       {/* 🔷 Top Gradient Navigation Panel (Categories) */}
-      <div className="relative z-10 w-full bg-gradient-to-r from-pink-100 to-violet-200 py-1.5 px-4 shadow-inner border-y border-purple-200">
+      <div className="relative z-10 w-full bg-gradient-to-r from-pink-200 to-violet-400 py-1.5 px-4 shadow-inner border-y border-purple-200">
   <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-6">
     
     {/* About Us */}
