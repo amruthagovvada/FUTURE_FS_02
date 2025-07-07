@@ -7,7 +7,7 @@ const CartPage = () => {
   const navigate = useNavigate();
 
   const calculateTotal = () =>
-    cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
+    cartItems.reduce((total, item) => total + item.price * 85 * item.quantity, 0);
 
   return (
     <div className="p-8 max-w-6xl mx-auto">
@@ -32,7 +32,7 @@ const CartPage = () => {
                   />
                   <div>
                     <h3 className="text-lg font-semibold text-gray-800">{item.title}</h3>
-                    <p className="text-purple-600 font-medium">₹{item.price}</p>
+                    <p className="text-purple-600 font-medium">₹{item.price * 85}</p>
                     <p className="text-sm text-gray-500">
                       Subtotal: ₹{item.price * item.quantity}
                     </p>
